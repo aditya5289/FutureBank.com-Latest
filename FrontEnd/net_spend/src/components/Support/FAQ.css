@@ -1,0 +1,43 @@
+.faqs {
+    padding: 20px;
+    background-image: linear-gradient(to right, #a0c8f8, #474af7, #770be3); /* Gradient background */
+    color: #fff; /* Text color */
+    min-height: 100vh; /* Set minimum height to cover the full viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+.faqs h1 {
+    color: #fff;
+    margin-bottom: 100px; /* Add spacing below h1 */
+}
+
+.faq-item {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 8px;
+    margin-bottom: 20px; /* Add spacing between FAQ items */
+    padding: 20px;
+    width: 100%; /* Ensure FAQ items take full width */
+    cursor: pointer; /* Add pointer cursor for interaction */
+    transition: background-color 0.3s ease;
+}
+
+.faq-item.active {
+    background-color: #fff; /* Change background color when active */
+    color: rgb(4, 4, 4);
+    text-align: center;
+}
+
+.faq-question {
+    color: #0056b3; /* Question text color */
+}
+
+.faq-answer {
+    margin-top: 10px; /* Add spacing above answer */
+    display: none; /* Hide answer by default */
+}
+
+.faq-item.active .faq-answer {
+    display: block; /* Display answer when active */
+}

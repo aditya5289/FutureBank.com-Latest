@@ -1,0 +1,57 @@
+/* SpendAnalyzer component styling */
+.SpendAnalyzer {
+  margin-top: 30px;
+  margin: 30px;
+  border-radius: 20px; /* Rounded border */
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 50vh;
+  }
+  
+  .SpendAnalyzer-label h2 {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    text-align:center;
+    margin: 30px;
+    
+    border-radius: 20px;
+  }
+
+  .SpendAnalyzer h3 {
+    color: #333;
+   
+    padding: 10px;
+    text-align:center;
+    margin: 30px;
+    
+    border-radius: 20px;
+  }
+  
+  
+  .SpendAnalyzer .chart-container {
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Tooltip styling */
+  .recharts-tooltip-wrapper {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Legend styling */
+  .recharts-legend-wrapper {
+    padding: 10px;
+  }
+  
+  /* Custom styling for bars */
+  .Bar-forecast {
+    fill: #82ca9d; /* Forecast bar color */
+  }
+  
+  .Bar-expenditure {
+    fill: #8884d8; /* Expenditure bar color */
+  }
+  

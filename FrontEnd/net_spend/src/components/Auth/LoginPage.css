@@ -1,0 +1,114 @@
+/* General body styling for a consistent background and improved readability */
+body {
+  background-color: #1e7ddb;
+  font-family: "Open Sans", sans-serif;
+  color: #bd1515;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the login container to add more visual spacing and center alignment */
+.login-container {
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Enhancements to the card for better visual appeal and consistency */
+.card {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(199, 23, 23, 0.1);
+  overflow: visible; /* Ensures no content bleeds outside the border-radius */
+}
+
+/* Card title styling for a bold and inviting appearance */
+.card-title {
+  color: #0056b3; /* Future Bank's theme color for brand consistency */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Enhanced styles for input fields */
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  /* Adjust the border color to something darker for better visibility */
+  border: 2px solid #007bff; /* A darker shade for better contrast */
+  border-radius: 5px;
+  background-color: #da1010; /* White background for clarity */
+  color: #333; /* Dark text for better readability */
+  margin-bottom: 1rem;
+}
+
+/* Enhance focus state for better visual feedback */
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline:black;
+  border-color: #0056b3;
+  box-shadow: 0 0 0 0.2rem rgba(48, 127, 212, 0.25); /* Add a glow effect */
+}
+
+/* Adjusted button styles for higher visibility */
+.btn-primary {
+  background-color: #007bff; /* Use a more vibrant shade of blue */
+  color: #d81414; /* Ensure text is white for contrast */
+  border: 1px solid #007bff; /* Define a border to maintain visibility */
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #0056b3; /* Darken on hover/focus for feedback */
+  border-color: #004494; /* Also darken the border on hover/focus */
+  color: #b48585; /* Keep text white for readability */
+  outline: none;
+}
+
+/* Alert message styling for better visibility and integration */
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  padding: 0.75rem 1.25rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+/* Enhancements for the security tips section for a friendly and informative tone */
+.security-tips {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.security-tips h3 {
+  color: #0056b3;
+}
+
+.security-tips ul {
+  list-style-type: disc; /* Adds bullet points for clarity */
+  margin-left: 20px; /* Aligns text nicely under the bullets */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 1rem;
+  }
+}
+
+/* Media query for screen width 992px and above */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 100.333%;
+  }
+}

@@ -1,0 +1,20 @@
+.security-tips {
+    background-color: #f2f4f8;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .security-tips h2 {
+    color: #333;
+  }
+  
+  .security-tips ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .security-tips ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }

@@ -1,0 +1,38 @@
+.profileManagement {
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #a0c8f8, #474af7, #770be3); /* Gradient background */
+    height: 100vh; /* Set the height to cover the full viewport */
+  }
+  
+  .profileManagement h1 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .profile-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #000; /* Customize your color */
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background-color: #fff; /* Set background color for link boxes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  .profile-link:hover,
+  .profile-link.active {
+    background-color: #e0e0e0; /* Customize your hover and active background color */
+  }
+  

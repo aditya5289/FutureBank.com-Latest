@@ -1,0 +1,37 @@
+/* PersonalizedOffers.css */
+
+.personalized-offers {
+  margin-top: 30px;
+  margin-right: 30px;
+  border-radius: 20px; /* Rounded border */
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 65vh;
+  color: rgb(5, 5, 5);
+}
+
+.personalized-offers h2 {
+  text-align: center;
+  padding: 30px;
+}
+
+.offers-list {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.offer {
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 20px; /* Rounded border */
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.offer h3 {
+  margin-bottom: 10px;
+}
+
+.offer p {
+  margin: 0;
+}

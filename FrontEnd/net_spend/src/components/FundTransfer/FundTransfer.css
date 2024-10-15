@@ -1,0 +1,82 @@
+/* FundTransfer.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #a0c8f8, #474af7, #770be3);/* Gradient background */
+  min-height: 100vh; /* Ensure the whole page is covered */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Style for readOnly input fields to appear frozen or disabled */
+.form-control[readOnly] {
+  background-color: #e9ecef; /* Gray background */
+  opacity: 1; /* Fully opaque (change if you want it to look more disabled) */
+  cursor: not-allowed; /* Shows a 'not-allowed' cursor on hover */
+  color: #495057; /* Text color, can be adjusted for better contrast */
+}
+
+/* Optionally, adjust the border color to make it look more disabled */
+.form-control[readOnly] {
+  border-color: #ced4da;
+}
+.fund-transfer-container {
+  width: 70%; /* Stretch to full width of the page */
+ 
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255,0.4); /* Adjusted background color with opacity */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.fund-transfer-container h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #000000;
+  font-size: 1rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.form-check-input {
+  margin-right: 0.5rem;
+}
+
+.form-check-label {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.transaction-details {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+}

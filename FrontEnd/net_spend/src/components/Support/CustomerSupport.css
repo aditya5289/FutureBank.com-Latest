@@ -1,0 +1,62 @@
+.customerSupport {
+    padding: 20px;
+    background-image: linear-gradient(to right, #a0c8f8, #474af7, #770be3); /* Gradient background */
+    color: #fff; /* Text color */
+    min-height: 100vh; /* Set minimum height to cover the full viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    
+}
+
+.customerSupport h1 {
+    color: #fff;
+    margin-bottom: 20px; /* Add spacing below h1 */
+}
+
+.customerSupport p {
+    color: #ffffff;
+    text-align: center; /* Center align paragraph */
+    margin-bottom: 60px; /* Add more spacing below paragraph */
+}
+
+.supportSections {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Two sections per row */
+    gap: 20px; /* Gap between sections */
+    justify-content: center; /* Center align sections */
+    
+    width: 100%; /* Ensure sections take full width */
+}
+
+.supportSections section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255); /* Semi-transparent white background */
+    border-radius: 8px;
+    border: 2px solid #000; /* Add black border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text in sections */
+}
+
+.supportSections h2 {
+    color: #0056b3;
+}
+
+.supportSections p {
+    margin: 10px 0;
+    color: #0a0a0a;
+}
+
+.supportSections a {
+    display: inline-block;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.supportSections a:hover {
+    background-color: #0056b3;
+}

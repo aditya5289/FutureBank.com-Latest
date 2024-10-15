@@ -1,0 +1,35 @@
+Creating a New Job Posting:
+
+Success (Resource Created): 201 Created
+Bad Request (Validation Error or Duplicate): 400 Bad Request
+Unauthorized (if authentication is required): 401 Unauthorized
+Forbidden (if user doesn't have permission): 403 Forbidden
+Updating an Existing Job Posting:
+
+Success (Resource Updated): 200 OK or 204 No Content
+Not Found (if the job posting doesn't exist): 404 Not Found
+Bad Request (Validation Error or Duplicate): 400 Bad Request
+Unauthorized (if authentication is required): 401 Unauthorized
+Forbidden (if user doesn't have permission): 403 Forbidden
+Deleting a Job Posting:
+
+Success (Resource Deleted): 200 OK
+Not Found (if the job posting doesn't exist): 404 Not Found
+Unauthorized (if authentication is required): 401 Unauthorized
+Forbidden (if user doesn't have permission): 403 Forbidden
+Retrieving All Job Postings:
+
+Success (List of Job Postings): 200 OK
+Unauthorized (if authentication is required): 401 Unauthorized
+Forbidden (if user doesn't have permission): 403 Forbidden
+Retrieving a Specific Job Posting:
+
+Success (Single Job Posting): 200 OK
+Not Found (if the job posting doesn't exist): 404 Not Found
+Unauthorized (if authentication is required): 401 Unauthorized
+Forbidden (if user doesn't have permission): 403 Forbidden
+Error Handling and Validation:
+
+Bad Request (Invalid input or validation errors): 400 Bad Request
+Not Found (Resource not found): 404 Not Found
+Internal Server Error (for unexpected server-side errors): 500 Internal Server Error

@@ -1,0 +1,49 @@
+.personalDetailsUpdate {
+  padding: 20px;
+  background-image: linear-gradient(to right, #a0c8f8, #474af7, #770be3); /* Gradient background */
+  color: #000; /* Text color */
+  height: 100vh; /* Set the height to cover the full viewport */
+}
+
+.personalDetailsUpdate h1 {
+  margin-bottom: 40px;
+  justify-content: center; /* Center vertically */
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: calc(100% - 20px); /* Adjusted width to accommodate padding */
+  padding: 10px;
+  border: 1px solid #fff; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  background-color: rgba(255, 255, 255); /* Semi-transparent white background */
+  color: #000; /* Text color */
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: transparent; /* Transparent button background */
+  color: #000; /* Button text color */
+  border: 1px solid #fff; /* Button border */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+

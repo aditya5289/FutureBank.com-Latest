@@ -1,0 +1,102 @@
+/* AccountsSummary.css Enhancements */
+.transaction-summary {
+  min-height: 100vh; /* Ensure the component covers the entire screen */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center children horizontally */
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  background-image: linear-gradient(to bottom, #a0c8f8, #474af7, #770be3); /* Gradient background */
+  color: #fff; /* Text color */
+}
+.credit {
+  color: green;
+}
+
+.debit {
+  color: red;
+}
+.credit-row {
+  background-color: #dfebe0; /* Light green background */
+}
+
+.debit-row {
+  background-color: #c4e21a; /* Light red background */
+}
+
+  
+  h2 {
+    color: #fbfbfb; /* More vibrant color for headings */
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Slightly larger shadow for depth */
+    background-color: #ffffff; /* White background for contrast */
+    overflow: hidden; /* Ensures the border-radius applies correctly */
+    border-radius: 8px; /* Rounded corners for the table */
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 15px; /* Increased padding for more space */
+    border-bottom: 2px solid #eee; /* Slightly thicker bottom border for separation */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  th {
+    background-color: #4744f9; /* Brighter header background */
+    color: #ffffff; /* White text color */
+    font-size: 16px; /* Slightly larger font size */
+  }
+  
+  td {
+    color: #666666; /* Darker text color for contrast */
+  }
+  
+  tbody tr:hover {
+    background-color: #d4edf7; /* Lighter hover effect */
+  }
+  
+  /* Enhancements for responsive design */
+  @media screen and (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+  
+    thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+  
+    tr { 
+      border: 2px solid #ddd; /* Thicker border for clarity */
+      margin-bottom: 10px; /* Space between rows */
+      border-radius: 8px; /* Consistency in design */
+    }
+  
+    td {
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+      text-align: right;
+      padding-bottom: 20px; /* Increased padding for readability */
+    }
+  
+    td:before {
+      color: #0275d8; /* Match the heading color */
+      position: absolute;
+      top: 18px; /* Adjusted for better alignment */
+      left: 20px; /* More space on the left */
+      font-size: 14px; /* Slightly larger for readability */
+    }
+  }
+  

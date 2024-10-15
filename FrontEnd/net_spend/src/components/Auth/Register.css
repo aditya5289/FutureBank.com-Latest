@@ -1,0 +1,64 @@
+.registration-form {
+    padding: 20px;
+  
+    color: #000; /* Text color */
+    height: 100vh; /* Set the height to cover the full viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+  
+  .registration-form h2 {
+    margin-bottom: 20px;
+  }
+
+
+
+.form-row {
+    
+    display: flex;
+    justify-content: space-between; /* Space out fields evenly */
+    flex-wrap: nowrap; /* Prevent wrapping to a new line */
+}
+
+.input-group {
+    flex: 0 0 calc(100% / 7 - 10px); /* Allocate equal width for 7 items minus some spacing */
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+    white-space: nowrap; /* Prevents label text from wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Add ellipsis to overflowing text */
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    width: auto; /* Adjust button width as necessary */
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Ensure there's space between the last row and the button */
+}
+
+@media screen and (max-width: 1200px) {
+    .input-group label {
+        font-size: smaller; /* Reduce font size on smaller screens */
+    }
+}

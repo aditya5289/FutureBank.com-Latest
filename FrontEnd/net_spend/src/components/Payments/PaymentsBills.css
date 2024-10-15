@@ -1,0 +1,44 @@
+/* PaymentsBills.css */
+
+/* General layout */
+.paymentsBills {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  min-height: 100vh; /* Set minimum height to cover the full viewport */
+  background-image: linear-gradient(to bottom, #a0c8f8, #474af7, #770be3); /* Gradient background */
+}
+
+
+
+/* Bills list styling */
+.billsList {
+  list-style-type: none; /* Remove default list styles */
+  padding: 50px;
+  margin: 0;
+}
+
+.billItem {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between; /* Align items with space between */
+  align-items: center;
+}
+
+.billItem button {
+  background-color: #007bff; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.billItem button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}

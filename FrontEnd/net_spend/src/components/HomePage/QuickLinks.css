@@ -1,0 +1,38 @@
+/* QuickLinks.css */
+
+.quick-links {
+  
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 20px; /* Rounded border */
+  background-color: rgba(255, 255, 255, 0.6);
+    height: 65vh;
+    width: 50vh;
+}
+
+.quick-links h2 {
+  padding: 30px;
+  text-align: center;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.quick-links li {
+  border-radius: 20px; /* Rounded border */
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.quick-links li Link {
+  text-decoration: none;
+  color: #000; /* Adjust the color as needed */
+}
+
+.quick-links li Link:hover {
+  color: #007bff; /* Adjust the hover color as needed */
+}

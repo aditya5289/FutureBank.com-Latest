@@ -1,0 +1,108 @@
+.contactInformation {
+    padding: 20px;
+    background-image: linear-gradient(to right, #a0c8f8, #474af7, #770be3); /* Gradient background */
+    color: #fff; /* Text color */
+    min-height: 100vh; /* Set minimum height to cover the full viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+.contactInformation h1 {
+    color: #fff;
+    text-align: center; /* Center h1 text */
+    margin-bottom: 100px; /* Add spacing below h1 */
+}
+.contactOptions{
+    margin-top: 50px;
+}
+
+.supportSections {
+    display: flex;
+    flex-wrap: wrap; /* Allow sections to wrap to the next line */
+    justify-content: center; /* Center sections horizontally */
+    gap: 20px; /* Add gap between sections */
+}
+
+.supportSections section {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px; /* Set fixed width for each section */
+}
+
+.supportSections h2 {
+    color: #0056b3; /* Section title text color */
+    margin-bottom: 10px; /* Add spacing below h2 */
+}
+
+.supportSections p {
+    margin-bottom: 10px; /* Add spacing below paragraph */
+}
+
+.supportSections a {
+    display: block;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center; /* Center button text */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.contactInformation {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text color */
+    min-height: 100vh; /* Ensure the component covers the entire screen */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center children horizontally */
+}
+
+.contactInformation h1 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.contactOptions {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Add some space between sections */
+    margin-top: 50;
+}
+
+.contactOptions section {
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Add padding inside sections */
+    width: 300px; /* Set a fixed width for each section */
+}
+
+.contactOptions h2 {
+    color: #0056b3; /* Blue heading color */
+    margin-bottom: 10px; /* Add some space below the heading */
+}
+
+.contactOptions p {
+    margin-bottom: 10px; /* Add some space below paragraphs */
+}
+
+.contactOptions ul {
+    padding-left: 20px; /* Indent list items */
+    margin-bottom: 10px; /* Add some space below lists */
+}
+
+.contactOptions ul li {
+    list-style: none; /* Remove default list styles */
+}
+
+.contactOptions address {
+    margin-top: 10px; /* Add some space above the address */
+    font-style: normal; /* Reset font style */
+}
+
+.supportSections a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

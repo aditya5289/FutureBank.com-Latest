@@ -1,0 +1,29 @@
+.session-summary {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.session-summary h2 {
+    color: #333;
+}
+
+.session-summary ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.session-summary ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.session-summary button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
